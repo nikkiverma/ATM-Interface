@@ -83,7 +83,7 @@ class Machine {
         withdraw_amt = sc.nextInt();
         if (withdraw_amt > totalamount) {
             System.out.println("Insufficient amount!!!!");
-            // menu();
+           
         } else {
 
             totalamount -= withdraw_amt;
